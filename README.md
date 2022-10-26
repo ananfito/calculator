@@ -9,11 +9,11 @@
 ![]()
 
 ## About
-A basic calculator built with HTML, CSS, and JS. Inspired by the tutorial ['JavaScript DOM Manipulation Course'](https://youtu.be/5fb2aPlgoys) taught by [CodeLab](https://www.youtube.com/c/CodeLab98), this is a self-directed project I created to challenge myself and test the skills I learned from the tutorial. 
+A basic calculator built with HTML, CSS, and JS. Inspired by the tutorial ['JavaScript DOM Manipulation Course'](https://youtu.be/5fb2aPlgoys) taught by [CodeLab](https://www.youtube.com/c/CodeLab98) and the [Calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29). Frontend Mentor challenges help you improve your coding skills by building realistic projects. This is my challenge solution.
 
 ### Goals
 
-This will be a basic calculator and have the following functions: 
+This will be a basic calculator and have the following functions:
 
 - Addition `+`
 - Subtraction `-`
@@ -22,7 +22,7 @@ This will be a basic calculator and have the following functions:
 
 ## Status
 
-This project is a **WORK-IN-PROGRESS**. Check back for updates. 
+This project is a **WORK-IN-PROGRESS**. Check back for updates.
 
 ## Connect
 
