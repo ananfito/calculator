@@ -1,0 +1,143 @@
+/* Variables */
+
+:root {
+
+}
+
+
+
+/* General Styles */
+
+body {
+  height: 100vh;
+  min-width: 375px;
+  max-width: 1440px;
+  font-family: League-Spartan, Roboto, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container {
+  width: 350px;
+
+}
+
+
+/* Calculator Header */
+
+.header {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header, h3, p {
+  margin: 0;
+}
+
+#calc-header {
+  text-align: left;
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+#theme {
+  text-align: right;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+#theme1 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+#theme2 {
+  grid-column-start: 4;
+  grid-row-start: 1;
+}
+
+#theme3 {
+  grid-column-start: 5;
+  grid-row-start: 1;
+}
+
+#theme1Btn {
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+#theme2Btn {
+  grid-column-start: 4;
+  grid-row-start: 2;
+}
+
+#theme3Btn {
+  grid-column-start: 5;
+  grid-row-start: 2;
+}
+
+.themeBtn {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+
+/* Calculator Display */
+
+.display {
+    font-size: 32px;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Calculator Buttons */
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
+
+.calcBtn {
+  cursor: pointer;
+  margin: 10px;
+  height: 70%;
+  width: 80%;
+}
+
+#reset {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 90%;
+}
+
+#equal {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  width: 90%;
+}
+
+
+/* Attribution */
+
+.attribution {
+  margin-top: 50px;
+  font-size: 11px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

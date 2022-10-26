@@ -2,19 +2,70 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Calculator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+
+  <!-- Calculator app -->
+  <div class="container" id="calc-container">
+
+    <!-- Calculator Header -->
+    <div class="header" id="header">
+
+      <h3 id="calc-header">calc</h3>
+      <p id="theme">THEME</p>
+
+      <p id="theme1" >1</p>
+      <p id="theme2" >2</p>
+      <p id="theme3" >3</p>
+      
+      <button class="themeBtn" type="button" name="theme1-button" id="theme1Btn"></button>
+      <button class="themeBtn" type="button" name="theme2-button" id="theme2Btn"></button>
+      <button class="themeBtn" type="button" name="theme3-button" id="theme3Btn"></button>
+
+
+
+    </div>
+
+    <!-- Calculator Display -->
+    <div class="display" id="display">
+      000,000,000
+    </div>
+
+    <!-- Calculator Buttons -->
+    <div class="buttons" id="calc-buttons">
+      <button class="calcBtn" type="button" name="seven" id="seven">7</button>
+      <button class="calcBtn" type="button" name="eight" id="eight">8</button>
+      <button class="calcBtn" type="button" name="nine" id="nine">9</button>
+      <button class="calcBtn" type="button" name="delete" id="delete">DEL</button>
+      <button class="calcBtn" type="button" name="four" id="four">4</button>
+      <button class="calcBtn" type="button" name="five" id="five">5</button>
+      <button class="calcBtn" type="button" name="six" id="six">6</button>
+      <button class="calcBtn" type="button" name="add" id="add">+</button>
+      <button class="calcBtn" type="button" name="one" id="one">1</button>
+      <button class="calcBtn" type="button" name="two" id="two">2</button>
+      <button class="calcBtn" type="button" name="three" id="three">3</button>
+      <button class="calcBtn" type="button" name="subtract" id="subtract">-</button>
+      <button class="calcBtn" type="button" name="decimal-point" id="decimal">.</button>
+      <button class="calcBtn" type="button" name="zero" id="zero">0</button>
+      <button class="calcBtn" type="button" name="divide" id="divide">/</button>
+      <button class="calcBtn" type="button" name="multiply" id="multiply">*</button>
+      <button class="calcBtn" type="button" name="reset" id="reset">RESET</button>
+      <button class="calcBtn" type="button" name="equal" id="equal">=</button>
+
+    </div>
+
+  </div>
 
 
 

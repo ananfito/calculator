@@ -30,3 +30,16 @@ This project is a **WORK-IN-PROGRESS**. Check back for updates.
 - [LinkedIn](https://linkedin.com/in/anthonynanfito)
 - [Portfolio](https://ananfito.github.io)
 - [Blog](https://ananfito.hashnode.dev)
+
+## References
+
+The following are references I found helpful throughout the project.
+
+- [Work with CSS Grid Lines Using Grid Column Start and Grid Row Start (video)](https://youtu.be/Vb9-8uuonAY)
+- [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+- [`grid-column`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)
+- [`grid-row`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row)
+- [`grid`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid)
+- [`grid-template-columns`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns)
+- [`grid-template`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template)
+- [`grid-template-rows`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows)
