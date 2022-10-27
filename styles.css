@@ -81,13 +81,18 @@ body {
   grid-column-start: 5;
   grid-row-start: 2;
 }
-
+/*
 .themeBtn {
   display: grid;
   width: 30px;
   height: 30px;
   border-radius: 30px;
   cursor: pointer;
+}
+*/
+
+.wrapper {
+  background-color: blue;
 }
 
 

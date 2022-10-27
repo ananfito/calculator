@@ -43,3 +43,6 @@ The following are references I found helpful throughout the project.
 - [`grid-template-columns`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns)
 - [`grid-template`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template)
 - [`grid-template-rows`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows)
+- [Custom CSS Radio Button](https://youtu.be/P_koTkWeyXE)
+- [Style Radio Buttons with CSS](https://youtu.be/MZq5zFSpUlo)
+- [`<input type="radio">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)
