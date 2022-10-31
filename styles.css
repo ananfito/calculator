@@ -92,9 +92,44 @@ body {
 */
 
 .wrapper {
-  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
 }
 
+.option {
+  background-color: #ccc;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.option label {
+  cursor: pointer;
+}
+
+
+
+.option label::before { /* circle */
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #0aac83;
+  border-radius: 50%;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .8);
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.option input:checked ~ label::before { /* click activation */
+  opacity: 1;
+
+}
 
 /* Calculator Display */
 
