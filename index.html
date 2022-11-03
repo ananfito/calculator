@@ -15,80 +15,76 @@
   <title>Calculator app | Frontend Mentor</title>
 </head>
 <body>
+  <main>
 
-  <!-- Calculator app -->
-  <div class="container" id="calc-container">
+    <!-- Calculator app -->
+    <div class="container" id="calc-container">
 
-    <!-- Calculator Header -->
-    <div class="header" id="header">
+      <!-- Calculator Header -->
+      <div class="header" id="header">
 
-      <h3 id="calc-header">calc</h3>
-      <p id="theme">THEME</p>
+        <h3 id="calc-header">calc</h3>
+        <p id="theme">THEME</p>
 
+        <div class="theme-buttons">
 
+          <label for="theme1" class="radio">
+            <input type="radio" name="theme" value="theme1" class="radio__input" id="theme1">
+            <div class="radio__radio"></div>
+            1
+          </label>
 
+          <label for="theme2" class="radio">
+            <input type="radio" name="theme" value="theme2" class="radio__input" id="theme2">
+            <div class="radio__radio"></div>
+            2
+          </label>
 
-      <div class="wrapper">
-        <div class="option" id="theme-buttons">
-
-          <input type="radio" name="theme" value="theme1" id="theme1">
-          <label for="theme1" >1</label>
-
-          <input type="radio" name="theme" value="theme2" id="theme2">
-          <label for="theme2" >2</label>
-
-          <input type="radio" name="theme" value="theme3" id="theme3">
-          <label for="theme3" >3</label>
+          <label for="theme3" class="radio">
+            <input type="radio" name="theme" value="theme3" class="radio__input" id="theme3">
+            <div class="radio__radio"></div>
+            3
+          </label>
 
         </div>
+      </div>
 
+      <!-- Calculator Display -->
+      <div class="display" id="display">
+        000,000,000
+      </div>
 
-
-
-
+      <!-- Calculator Buttons -->
+      <div class="buttons" id="calc-buttons">
+        <button class="calcBtn" type="button" name="seven" id="seven">7</button>
+        <button class="calcBtn" type="button" name="eight" id="eight">8</button>
+        <button class="calcBtn" type="button" name="nine" id="nine">9</button>
+        <button class="calcBtn" type="button" name="delete" id="delete">DEL</button>
+        <button class="calcBtn" type="button" name="four" id="four">4</button>
+        <button class="calcBtn" type="button" name="five" id="five">5</button>
+        <button class="calcBtn" type="button" name="six" id="six">6</button>
+        <button class="calcBtn" type="button" name="add" id="add">+</button>
+        <button class="calcBtn" type="button" name="one" id="one">1</button>
+        <button class="calcBtn" type="button" name="two" id="two">2</button>
+        <button class="calcBtn" type="button" name="three" id="three">3</button>
+        <button class="calcBtn" type="button" name="subtract" id="subtract">-</button>
+        <button class="calcBtn" type="button" name="decimal-point" id="decimal">.</button>
+        <button class="calcBtn" type="button" name="zero" id="zero">0</button>
+        <button class="calcBtn" type="button" name="divide" id="divide">/</button>
+        <button class="calcBtn" type="button" name="multiply" id="multiply">*</button>
+        <button class="calcBtn" type="button" name="reset" id="reset">RESET</button>
+        <button class="calcBtn" type="button" name="equal" id="equal">=</button>
 
       </div>
 
-
-
     </div>
 
-    <!-- Calculator Display -->
-    <div class="display" id="display">
-      000,000,000
+    <!-- Attirubtion -->
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://ananfito.github.io/" target="_blank">Anthony Nanfito</a>.
     </div>
 
-    <!-- Calculator Buttons -->
-    <div class="buttons" id="calc-buttons">
-      <button class="calcBtn" type="button" name="seven" id="seven">7</button>
-      <button class="calcBtn" type="button" name="eight" id="eight">8</button>
-      <button class="calcBtn" type="button" name="nine" id="nine">9</button>
-      <button class="calcBtn" type="button" name="delete" id="delete">DEL</button>
-      <button class="calcBtn" type="button" name="four" id="four">4</button>
-      <button class="calcBtn" type="button" name="five" id="five">5</button>
-      <button class="calcBtn" type="button" name="six" id="six">6</button>
-      <button class="calcBtn" type="button" name="add" id="add">+</button>
-      <button class="calcBtn" type="button" name="one" id="one">1</button>
-      <button class="calcBtn" type="button" name="two" id="two">2</button>
-      <button class="calcBtn" type="button" name="three" id="three">3</button>
-      <button class="calcBtn" type="button" name="subtract" id="subtract">-</button>
-      <button class="calcBtn" type="button" name="decimal-point" id="decimal">.</button>
-      <button class="calcBtn" type="button" name="zero" id="zero">0</button>
-      <button class="calcBtn" type="button" name="divide" id="divide">/</button>
-      <button class="calcBtn" type="button" name="multiply" id="multiply">*</button>
-      <button class="calcBtn" type="button" name="reset" id="reset">RESET</button>
-      <button class="calcBtn" type="button" name="equal" id="equal">=</button>
-
-    </div>
-
-  </div>
-
-
-
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://ananfito.github.io/" target="_blank">Anthony Nanfito</a>.
-  </div>
+  </main>
 </body>
 </html>
