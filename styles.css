@@ -1,9 +1,6 @@
 /* Stylsheet for Calculator */
 
-* {
-  margin: 0;
-  padding: 0;
-}
+
 
 /* Variables */
 
@@ -38,13 +35,15 @@ body {
 /* Calculator Header */
 
 .header {
-  display: flex;
+  display: grid;
   justify-content: space-between;
   align-items: center;
+  grid-template-columns: 1fr 1fr;
 }
 
 .header, h3, p {
   margin: 0;
+  justify-items: left;
 }
 
 /* THEME SELECTOR */
@@ -54,6 +53,8 @@ body {
   grid-template-rows: 1fr 1fr;
   width: 74px;
   height: 32px;
+  justify-items: right;
+  grid-column-start: 3;
 
 }
 
@@ -62,25 +63,10 @@ body {
 
 }
 
-#extra-space {
-  grid-column-start: 1;
-  grid-row-start: 1;
-}
-
-#theme1Text {
-  grid-column-start: 2;
-  grid-row-start: 1;
-}
-
-#theme2Text {
+#themeText {
   grid-column-start: 3;
   grid-row-start: 1;
-
-}
-
-#theme3Text {
-  grid-column-start: 4;
-  grid-row-start: 1;
+  justify-self: center;
 
 }
 
@@ -94,7 +80,6 @@ body {
 
 .toggle {
   background: #efefef;
-  border: 1px solid #ccc;
   border-radius: 30px;
   display: inline-flex;
   position: relative;
@@ -157,6 +142,7 @@ label {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
+  
 
 }
 
@@ -165,7 +151,9 @@ label {
   margin: 10px;
   height: 70%;
   width: 80%;
+
 }
+
 
 #reset {
   grid-column-start: 1;
