@@ -5,6 +5,20 @@
 /* Variables */
 
 :root {
+  /* theme 1 colors */
+  --main-bg: hsl(222, 26%, 31%);
+  --toggle-bg: hsl(223, 31%, 20%); /* keypad bg */
+  --screen-bg: hsl(224, 36%, 15%);
+  --reset-del-key-bg: hsl(225, 21%, 49%);
+  --reset-del-key-shadow: hsl(224, 28%, 35%);
+  --equal-key-bg: hsl(6, 63%, 50%); /* toggle */
+  --equal-key-shadow: hsl(6, 70%, 34%);
+  --key-bg: hsl(30, 25%, 89%);
+  --key-shadow: hsl(28, 16%, 65%);
+  --text-blue: hsl(221, 14%, 31%);
+  --text-white: hsl(0, 0%, 100%);
+  --text-yellow: hsl(52, 100%, 62%);
+  --text-dkblue: hsl(198, 20%, 13%);
 
 }
 
@@ -18,11 +32,13 @@ body {
   max-width: 1440px;
   font-family: League-Spartan, Roboto, sans-serif;
   font-weight: 700;
+  color: var(--text-white);
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: var(--main-bg);
 
 }
 
@@ -79,7 +95,7 @@ body {
 /* RADIO BUTTON STYLING for THEME SELECTOR */
 
 .toggle {
-  background: #efefef;
+  background: var(--toggle-bg);
   border-radius: 30px;
   display: inline-flex;
   position: relative;
@@ -105,7 +121,7 @@ label {
 .selector {
   height: 11px;
   width: 11px;
-  background: magenta;
+  background: var(--equal-key-bg);
   border-radius: 50%;
   position: absolute;
   top: 2px;
@@ -134,6 +150,9 @@ label {
     text-align: right;
     margin-top: 20px;
     margin-bottom: 20px;
+    background: var(--screen-bg);
+    padding: 20px;
+    border-radius: 5px;
 }
 
 /* Calculator Buttons */
@@ -142,8 +161,9 @@ label {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  
-
+  background: var(--toggle-bg);
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .calcBtn {
@@ -151,9 +171,21 @@ label {
   margin: 10px;
   height: 70%;
   width: 80%;
+  background: var(--key-bg);
+  border-radius: 5px;
+  font-size: 32px;
+  font-family: inherit;
+  font-weight: 700;
+  color: var(--text-dkblue);
+  box-shadow: 0px 1px var(--key-shadow);
 
 }
 
+#reset, #delete {
+  background: var(--reset-del-key-bg);
+  box-shadow: 0px 1px var(--reset-del-key-shadow);
+  color: var(--text-white);
+}
 
 #reset {
   grid-column-start: 1;
@@ -165,6 +197,9 @@ label {
   grid-column-start: 3;
   grid-column-end: 5;
   width: 90%;
+  background: var(--equal-key-bg);
+  box-shadow: 0px 1px var(--equal-key-shadow);
+  color: var(--text-white);
 }
 
 
