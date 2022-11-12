@@ -3,7 +3,7 @@
 ## Contents
 
 - [About](#about)
-- [Status](#status)
+- [Status: WORK-IN-PROGRESS](#status)
 - [Connect](#connect)
 
 ![]()
@@ -22,7 +22,7 @@ This will be a basic calculator and have the following functions:
 
 ## Status
 
-This project is a **WORK-IN-PROGRESS**. Check back for updates.
+This project is a **WORK-IN-PROGRESS**.
 
 ## Connect
 
@@ -46,3 +46,12 @@ The following are references I found helpful throughout the project.
 - [Custom CSS Radio Button](https://youtu.be/P_koTkWeyXE)
 - [Style Radio Buttons with CSS](https://youtu.be/MZq5zFSpUlo)
 - [`<input type="radio">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)
+- [`@media/width`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/width)
+- [How to create a theme switcher with HTML & CSS](https://youtu.be/fyuao3G-2qg)
+- [Light/Dark Theme Toggle with CSS and JavaScript](https://youtu.be/xodD0nw2veQ)
+- [How To Make Website DARK MODE | Dark Theme Website Design Using HTML, CSS & JS](https://youtu.be/9LZGB3OLXNQ)
+- [How To Build An Advanced Light/Dark Theme Toggle](https://youtu.be/RiWxhm5ZdFM)
+- [How to create a theme switcher with HTML & CSS](https://youtu.be/fyuao3G-2qg)
+- [Light/Dark Theme Toggle with CSS and JavaScript](https://youtu.be/xodD0nw2veQ)
+- [How To Make Website DARK MODE | Dark Theme Website Design Using HTML, CSS & JS](https://youtu.be/9LZGB3OLXNQ)
+- [How To Build An Advanced Light/Dark Theme Toggle](https://youtu.be/RiWxhm5ZdFM)
